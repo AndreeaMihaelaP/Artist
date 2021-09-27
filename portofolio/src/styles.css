@@ -1,7 +1,7 @@
 .home {
     width: 100vw;
-    height: 100vh;
-    background: url(assets/background.jpg) no-repeat center center fixed; 
+    min-height: 100vh;
+    background: url(assets/img8.jpg) no-repeat center center fixed; 
     background-size: auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -10,3 +10,8 @@
     text-align: center;
 }
 
+/* NavBar */
+
+.navbar-line {
+   border-right: 1px dashed #9373aacc;
+}
