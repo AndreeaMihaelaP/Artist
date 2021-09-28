@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
-import Logo from "../assets/logo/paint1.svg";
+import Logo from "../assets/logo/logo.svg";
 import "../styles.css";
 
 const NavigationBar = () => {
@@ -11,7 +11,7 @@ const NavigationBar = () => {
           // backgroundColor: "black",
           backgroundColor: "#02111B",
           marginTop: "30px",
-          opacity: 0.8,
+          opacity: 0.9,
           // opacity: 0.5,
         }}
         collapseOnSelect
