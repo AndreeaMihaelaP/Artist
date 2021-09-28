@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
-import Logo from "../assets/logo/logo7.png";
+import Logo from "../assets/logo/paint1.svg";
 import "../styles.css";
 
 const NavigationBar = () => {
@@ -9,7 +9,7 @@ const NavigationBar = () => {
       <Navbar
         style={{
           // backgroundColor: "black",
-          backgroundColor: "#001037",
+          backgroundColor: "#02111B",
           marginTop: "30px",
           opacity: 0.8,
           // opacity: 0.5,
@@ -17,7 +17,6 @@ const NavigationBar = () => {
         collapseOnSelect
         fixed="top"
         expand="sm"
-        // bg="dark"
         variant="dark">
         <Container>
           <Navbar.Brand
@@ -32,16 +31,13 @@ const NavigationBar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
-              <Nav.Link
-                href="/"
-                className="navbar-line px-5"
-                style={{ color: "white" }}>
+              <Nav.Link href="/" className=" navbar-style navbar-line px-5">
                 HOME
               </Nav.Link>
               <NavDropdown
                 title="GALLERY"
                 id="basic-nav-dropdown"
-                className=" navbar-line px-5">
+                className=" navbar-style navbar-line px-5">
                 <NavDropdown.Item href="/gallery">Gallery</NavDropdown.Item>
                 <NavDropdown.Item href="/gallery">Flowers</NavDropdown.Item>
                 <NavDropdown.Item href="/gallery">Portraits</NavDropdown.Item>
@@ -50,7 +46,7 @@ const NavigationBar = () => {
               <NavDropdown
                 title="EXHIBITIONS"
                 id="basic-nav-dropdown"
-                className="navbar-line px-5">
+                className=" navbar-style navbar-line px-5">
                 <NavDropdown.Item href="/exhibitions">
                   Personal
                 </NavDropdown.Item>
@@ -58,10 +54,12 @@ const NavigationBar = () => {
                   University
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/about" className="navbar-line px-5">
+              <Nav.Link
+                href="/about"
+                className=" navbar-style navbar-line px-5">
                 ABOUT
               </Nav.Link>
-              <Nav.Link href="/contact" className="px-5">
+              <Nav.Link href="/contact" className="navbar-style px-5">
                 CONTACT
               </Nav.Link>
             </Nav>
