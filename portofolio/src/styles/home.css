@@ -1,14 +1,30 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700);
 
+#container {
+	width: 100vw;
+	min-height: 100vh;
+	background: url('../assets/home_background.jpg') no-repeat center center fixed;
+	background-size: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+
+/* Artist title */
+
+#title-container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 0;
+}
 
 h1 {
     color: #eaf0ce;
     font-family: 'Playfair Display';
     text-align: center;
-    left: 50%;
-    margin: 0;
-    top: 50%;
-    position: absolute;
     transform: translate(-50%, -50%);
 }
 

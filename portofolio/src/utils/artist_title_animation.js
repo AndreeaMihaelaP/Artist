@@ -1,7 +1,18 @@
 import anime from "animejs/lib/anime.es.js";
-let letters = document.getElementsByClassName("title-letter");
 
-export const animation = () => {
+function showSubTitle() {
+  anime({
+    targets: "#sub-title",
+    easing: "easeInQuad",
+    opacity: 1,
+    duration: 300,
+    delay: 1,
+  });
+}
+
+export const artistTitleAnimation = () => {
+  let letters = document.getElementsByClassName("title-letter");
+
   setTimeout(() => {
     for (let i = 0; i < letters.length; i++) {
       anime({
@@ -24,14 +35,4 @@ export const animation = () => {
       });
     }
   }, 500);
-
-  function showSubTitle() {
-    anime({
-      targets: "#sub-title",
-      easing: "easeInQuad",
-      opacity: 1,
-      duration: 300,
-      delay: 1,
-    });
-  }
 };
