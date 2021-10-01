@@ -6,9 +6,9 @@ import { CardImage } from "components/gallery/CardImage";
 import "../../styles/gallery.css";
 import img1 from "assets/fetita.jpg";
 import img2 from "assets/stat.jpg";
-import img5 from "assets/abstract.jpg";
+import img3 from "assets/abstract.jpg";
 import img4 from "assets/sarmisegetusa.jpeg";
-import img3 from "assets/icoana.jpg";
+import img5 from "assets/icoana.jpg";
 
 const Gallery = () => {
   useEffect(() => {
@@ -33,7 +33,7 @@ const Gallery = () => {
               <CardImage image={img2} title="Static Nature" />
             </Col>
             <Col>
-              <CardImage image={img5} title="Abstract" />
+              <CardImage image={img5} title="Icons" />
             </Col>
           </Row>
           <Row>
@@ -41,7 +41,7 @@ const Gallery = () => {
               <CardImage image={img4} title="Landscapes" />
             </Col>
             <Col>
-              <CardImage image={img3} title="Icons" />
+              <CardImage image={img3} title="Abstract" />
             </Col>
           </Row>
         </Container>
