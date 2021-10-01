@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 
-import Logo from "../../assets/logo/logo.svg";
+import Logo from "../../assets/logo/logo_name.svg";
 import "../../styles/navigation.css";
 
 const NavigationBar = () => {

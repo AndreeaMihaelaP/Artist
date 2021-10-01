@@ -10,12 +10,12 @@
 #navbar-logo {
 	display: flex;
 	align-Items: center;
-	border-radius: 150px;
 }
 
 #navbar-logo-img {
-	width: 80px;
-	height: 80px;
+	width: 90px;
+	height: 90px;
+	margin-right: 2px;
 }
 
 .navbar-separator {
