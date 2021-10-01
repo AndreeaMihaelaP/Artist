@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Playfair+Display&display=swap');
 
 /* NavBar */
 #navbar {
@@ -10,6 +10,7 @@
 #navbar-logo {
 	display: flex;
 	align-Items: center;
+	border-radius: 150px;
 }
 
 #navbar-logo-img {
@@ -22,7 +23,7 @@
 }
 
 .navbar-item {
-	font-family: 'Playfair Display';
+	font-family: 'Playfair Display', serif;
 	letter-spacing: 5px;
 	font-size: 16px;
 }
