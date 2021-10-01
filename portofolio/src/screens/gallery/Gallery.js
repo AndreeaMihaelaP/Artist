@@ -4,11 +4,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import { CardImage } from "components/gallery/CardImage";
 
 import "../../styles/gallery.css";
-import img1 from "assets/background.jpg";
-import img2 from "assets/img6.jpg";
-import img3 from "assets/img5.jpg";
-import img4 from "assets/2.jpg";
-import img5 from "assets/5.jpg";
+import img1 from "assets/fetita.jpg";
+import img2 from "assets/stat.jpg";
+import img5 from "assets/abstract.jpg";
+import img4 from "assets/sarmisegetusa.jpeg";
+import img3 from "assets/icoana.jpg";
 
 const Gallery = () => {
   useEffect(() => {
@@ -27,10 +27,10 @@ const Gallery = () => {
         <Container>
           <Row>
             <Col>
-              <CardImage image={img1} title="Static Nature" />
+              <CardImage image={img1} title="Portraits" />
             </Col>
             <Col>
-              <CardImage image={img2} title="Portrete" />
+              <CardImage image={img2} title="Static Nature" />
             </Col>
             <Col>
               <CardImage image={img5} title="Abstract" />
@@ -38,10 +38,10 @@ const Gallery = () => {
           </Row>
           <Row>
             <Col>
-              <CardImage image={img4} title="Peisaj" />
+              <CardImage image={img4} title="Landscapes" />
             </Col>
             <Col>
-              <CardImage image={img3} title="Icoane" />
+              <CardImage image={img3} title="Icons" />
             </Col>
           </Row>
         </Container>
