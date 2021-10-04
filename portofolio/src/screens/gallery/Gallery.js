@@ -18,7 +18,7 @@ const Gallery = () => {
     <div className="gallery-container">
       <div className="gallery-content">
         <h3 className="gallery-description">
-          Welcome to our gallery.
+          Welcome to the gallery.
           <p>
             Every painting is a story of healing, of seeking "love-tings" and
             "comfort-tings."

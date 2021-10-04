@@ -8,7 +8,7 @@ export const CardImage = ({ image, title, buttonName }) => {
       <div className="details">
         <h2>{title}</h2>
         <div class="more">
-          <a href="/home" class="read-more">
+          <a href="/category" class="read-more">
             {buttonName ? buttonName : "See More"}
           </a>
         </div>
