@@ -7,12 +7,7 @@ import "../../styles/navigation.css";
 const NavigationBar = () => {
   return (
     <>
-      <Navbar
-        id="navbar"
-        collapseOnSelect
-        fixed="top"
-        expand="sm"
-        variant="dark">
+      <Navbar id="navbar" collapseOnSelect expand="sm" variant="dark">
         <Container>
           <Navbar.Brand href="/home" id="navbar-logo">
             <img src={Logo} alt="Logo" id="navbar-logo-img" />

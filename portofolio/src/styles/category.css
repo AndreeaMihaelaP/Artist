@@ -3,12 +3,13 @@
 .category-container {
 	font-family: 'Birthstone', cursive;
     font-size: 2vw;
+    cursor: pointer;
 }
 
 .category-title {
-    padding-top: 200px;
+    padding-top: 50px;
+    font-size: 2.5vw;
     color:  #cc3f0c;
-	font-size: 2.5vw;
 	font-family: 'Birthstone', cursive;
     text-align: center;
 	margin: 10px;
@@ -57,7 +58,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 2em 3em;
+    padding: 2em 1em;
     width: 100%;
     height: 50%;
 }
